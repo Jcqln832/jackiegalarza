@@ -1,0 +1,125 @@
+// Universal
+
+body {
+	height: 100%;
+	color: #66737F;
+}
+
+section {
+	margin: 75px 0 !important;
+}
+
+
+hr {
+	margin-top: 150px;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: TextaAlt-Heavy;
+	color: #264564;
+	margin-top: 30px;
+}
+
+h4, h5, h6,
+.h4, .h5, .h6{
+	font-family: TextaAlt-Heavy;
+	color: #264564;
+	margin-bottom: 5px;
+}
+
+h1,
+.h1 {
+	font-size: 75px;
+	margin-top: 75px;
+	@include max-break(767px){
+		font-size: 51px;
+	}
+}
+
+h2,
+.h2 {
+	font-size: 51px;
+		@include max-break(767px){
+		font-size: 34px;
+	}
+}
+
+.header-highlight{
+	font-size: 26px;
+	color: #264564;
+	opacity: .5;
+	line-height: 1.5;
+	font-family: TextaAlt-medium;
+	@include max-break(767px){
+		font-size: 23px;
+	}
+}
+
+h3,
+.h3 {
+	font-size: 34px;
+	margin: 30px 0 15px 0;
+		@include max-break(767px){
+		font-size: 27px;}
+	}
+
+
+h5,
+.h5 {
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.p, p {
+	font-size: 19px;
+	color: #66737F;
+	line-height: 1.5;
+	font-family: TextaAlt-regular;
+}
+
+
+.caption {
+		font-size: 14px;
+		line-height: 1.5;
+		font-family: TextaAlt-mediumIt;
+		opacity: .75;
+		margin-top: 15px;
+}
+
+.small, small {
+	@extend .caption;
+	font-family: TextaAlt-medium;
+}
+
+
+#hierarchy {
+	h1, h2, h3, h4, h5, h6, div,
+	.h1, .h2, .h3, .h4, .h5, .h6{
+	margin-top: 30px;
+	margin-bottom: -5px;
+	}
+}
+
+#colors {
+	h1, h2, h3, h4, h5, h6, div,
+	.h1, .h2, .h3, .h4, .h5, .h6{
+	margin-top: 30px;
+	margin-bottom: -5px;
+	}
+}
+
+.description {
+		@extend p;
+		font-size: 14px;
+		opacity: .6;
+		margin-top: 5px;
+}
+
+
+.section-blue {
+	color: #fff !important;
+	background-color: #264564;
+}

@@ -1,0 +1,87 @@
+/*** Text Colors ***/
+
+.white{
+  color: #fff;
+}
+
+.alice{
+	color: $alice;
+}
+
+.bittersweet{
+	color: $bittersweet;
+}
+
+.darkCyan{
+	color: $darkCyan;
+}
+
+.light-gray{
+	color: $light-gray;
+}
+
+// .gray{
+// 	color: $gray;
+// }
+
+// .dim-gray{
+// 	color: $dim-gray;
+// }
+
+.dark-gray{
+	color: $dark-gray;
+}
+
+/*** Background Colors ***/
+
+.bg-transparent{
+  background: transparent;
+}
+
+.bg-white{
+  background: $white;
+}
+
+.bg-alice{
+	background: $alice;
+}
+
+.bg-bittersweet{
+	background: $bittersweet;
+}
+
+.bg-cyan{
+	background: $darkCyan;
+}
+
+.bg-light-gray{
+	background: $light-gray;
+}
+
+// .bg-gray{
+// 	background: $gray;
+// }
+//
+// .bg-dim-gray{
+// 	background: $dim-gray;
+// }
+
+.bg-dark-gray{
+	background: $dark-gray;
+}
+
+.swatch{
+	height: 75px;
+	width: 75px;
+	border-radius: 6px;
+}
+
+/*** Gradients ***/
+//example:
+// .atlantic-pacific-gradient{
+//   background: $atlantic;
+//   background: -webkit-linear-gradient(left, $arctic, $pacific); /* For Safari 5.1 to 6.0 */
+//   background: -o-linear-gradient(right, $arctic, $pacific); /* For Opera 11.1 to 12.0 */
+//   background: -moz-linear-gradient(right, $arctic $pacific); /* For Firefox 3.6 to 15 */
+//   background: linear-gradient(to right, $arctic $pacific); /* Standard syntax */
+// }

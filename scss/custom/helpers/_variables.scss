@@ -1,0 +1,179 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+// *** Colors ***
+
+// White
+
+$white: 				     #fff;
+
+// Alice Blue
+
+$alice:               #f0f8ff  !default;
+$alice75:             darken($alice, 25%) !default;
+$alice50:             lighten($alice, 50%) !default;
+$alice25:             lighten($alice, 75%) !default;
+
+// Bittersweet
+
+$bittersweet:          #fe6f5e !default;
+$bittersweet75:        lighten($bittersweet, 25%) !default;
+$bittersweet50:        lighten($bittersweet, 50%) !default;
+$bittersweet25:        lighten($bittersweet, 75%) !default;
+
+//Light Orange
+
+$lightorange:           #ffa47b !default;
+
+//Pale Cyan
+
+$palecyan:              #e3ffed !default;
+
+// Dark Cyan
+
+$darkCyan:              #00958a !default;
+$darkCyan75:            lighten($darkCyan, 25%) !default;
+$darkCyan50:            lighten($darkCyan, 50%) !default;
+$darkCyan25:            lighten($darkCyan, 75%) !default;
+
+// light-gray
+
+$light-gray:             #edefef !default;
+$light-gray75:           lighten($light-gray, 25%) !default;
+$light-gray50:           lighten($light-gray, 50%) !default;
+$light-gray25:           lighten($light-gray, 75%) !default;
+
+// // gray
+//
+// $gray:               	   #b8c1c1 !default;
+// $gray75:             	   lighten($gray, 25%) !default;
+// $gray50:             	   lighten($gray, 50%) !default;
+// $gray25:             	   lighten($gray, 75%) !default;
+//
+// // dim gray
+//
+// $dim-gray:               #8e9c9c !default;
+// $dim-gray75:             lighten($dim-gray, 25%) !default;
+// $dim-gray50:             lighten($dim-gray, 50%) !default;
+// $dim-gray25:             lighten($dim-gray, 75%) !default;
+
+// dark gray
+
+$dark-gray:              #3c3e40 !default;
+$dark-gray75:            lighten($dark-gray, 25%) !default;
+$dark-gray50:            lighten($dark-gray, 50%) !default;
+$dark-gray25:            lighten($dark-gray, 75%) !default;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:               #fff !default;
+
+$text-color:            $dark-gray !default;
+
+//** Global textual link color.
+$link-color:            $darkCyan75 !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%) !default;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-display:     "Work Sans", "Avenir Next", Helvetica, Arial, sans-serif !default;
+$font-family-text:        "Avenir Next","Hind", Times, serif !default;
+$font-family-base:        $font-family-text !default;
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.75)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+//** By default, this inherits from the `<body>`.
+// $headings-font-family:    "Rokkitt";
+// $headings-font-weight:    normal !default;
+// $headings-line-height:    1.1 !default;
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+$padding-base-vertical:     6px !default;
+$padding-base-horizontal:   12px !default;
+
+$padding-large-vertical:    10px !default;
+$padding-large-horizontal:  16px !default;
+
+$padding-small-vertical:    5px !default;
+$padding-small-horizontal:  10px !default;
+
+$padding-xs-vertical:       1px !default;
+$padding-xs-horizontal:     5px !default;
+
+$line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
+$line-height-small:         1.5 !default;
+
+$border-radius-base:        4px !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;
+
+//** Global color for active items (e.g., navs or dropdowns).
+$component-active-color:    #fff !default;
+
+//** Width of the `border` for generating carets that indicator dropdowns.
+$caret-width-base:          4px !default;
+//** Carets increase slightly in size for larger components.
+$caret-width-large:         5px !default;
+
+
+//== Tables
+//
+//## Customizes the `.table` component with basic values, each used across all table variations.
+
+//** Padding for `<th>`s and `<td>`s.
+$table-cell-padding:            8px !default;
+//** Padding for cells in `.table-condensed`.
+$table-condensed-cell-padding:  5px !default;
+
+//** Default background color used for all tables.
+$table-bg:                      transparent !default;
+//** Background color used for `.table-striped`.
+$table-bg-accent:               #f9f9f9 !default;
+//** Background color used for `.table-hover`.
+$table-bg-hover:                #f5f5f5 !default;
+$table-bg-active:               $table-bg-hover !default;
+
+//** Border color for table and cell borders.
+$table-border-color:            #ddd !default;
+
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight:                normal !default;
+
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 $bittersweet !default;
+$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+
+// header size
+$header-height-small: 45px;
+$header-height: 70px;

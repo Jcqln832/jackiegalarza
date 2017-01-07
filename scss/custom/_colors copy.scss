@@ -1,0 +1,159 @@
+/*** Text Colorsa ***/
+
+.white{
+  color: #fff;
+}
+
+.atlantic{
+	color: $atlantic;
+}
+
+.pacific{
+	color: $pacific;
+}
+
+.arctic{
+	color: $arctic;
+}
+
+.lemon{
+	color: $lemon;
+}
+
+.mojito{
+	color: $mojito;
+}
+
+.sangria{
+	color: $sangria;
+}
+
+.orchid{
+	color: $orchid;
+}
+
+.light-gray{
+	color: $light-gray;
+}
+
+.gray{
+	color: $gray;
+}
+
+.dim-gray{
+	color: $dim-gray;
+}
+
+.dark-gray{
+	color: $dark-gray;
+}
+
+/*** Background Colors ***/
+
+.bg-transparent{
+  background: transparent;
+}
+
+.bg-white {
+  background: $white;
+}
+
+.bg-atlantic{
+	background: $atlantic;
+}
+
+.bg-pacific{
+	background: $pacific;
+}
+
+.bg-arctic{
+	background: $arctic;
+}
+
+.bg-lemon{
+	background: $lemon;
+}
+
+.bg-mojito{
+	background: $mojito;
+}
+
+.bg-sangria{
+	background: $sangria;
+}
+
+.bg-orchid{
+	background: $orchid;
+}
+
+.bg-light-gray{
+	background: $light-gray;
+}
+
+.bg-gray{
+	background: $gray;
+}
+
+.bg-dim-gray{
+	background: $dim-gray;
+}
+
+.bg-dark-gray{
+	background: $dark-gray;
+}
+
+.swatch{
+	height: 75px;
+	width: 75px;
+	border-radius: 6px;
+}
+
+/*** Gradients ***/
+
+.atlantic-pacific-gradient{
+  background: $atlantic;
+  background: -webkit-linear-gradient(left, $arctic, $pacific); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $arctic, $pacific); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $arctic $pacific); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $arctic $pacific); /* Standard syntax */
+}
+
+.mojito-atlantic-gradient{
+  background: $atlantic;
+  background: -webkit-linear-gradient(left, $mojito, $atlantic); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $mojito, $atlantic); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $mojito, $atlantic); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $mojito, $atlantic); /* Standard syntax */
+}
+
+.lemon-mojito-gradient{
+  background: $atlantic;
+  background: -webkit-linear-gradient(left, $lemon, $mojito); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $lemon, $mojito); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $lemon, $mojito); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $lemon, $mojito); /* Standard syntax */
+}
+
+.mojito-orchid-gradient{
+  background: $atlantic;
+  background: -webkit-linear-gradient(left, $mojito, $orchid); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $mojito, $orchid); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $mojito, $orchid); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $mojito, $orchid); /* Standard syntax */
+}
+
+.orchid-sangria-gradient{
+  background: $atlantic;
+  background: -webkit-linear-gradient(left, $orchid, $sangria); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $orchid, $sangria); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $orchid , $sangria); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $orchid, $sangria); /* Standard syntax */
+}
+
+.lemon-sangria-gradient{
+  background: $atlantic;
+  background: -webkit-linear-gradient(left, $lemon, $sangria); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $lemon, $sangria); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $lemon, $sangria); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $lemon, $sangria); /* Standard syntax */
+}
